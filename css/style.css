@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+  padding: 0px 10px;
+}
+
+.container h1 {
+  margin-top: 50px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.container .appsContainer {
+  width: 350px;
+  position: relative;
+  padding: 10px;
+  height: 500px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #eaedef;
+  margin: 50px auto;
+}
+
+.container .appsContainer .result {
+  height: 150px;
+}
+
+.container .appsContainer .result .history {
+  text-align: right;
+  height: 20px;
+  margin: 0px 20px;
+  padding-top: 20px;
+  font-size: 15px;
+  color: #919191;
+}
+
+.container .appsContainer .result .history input[type='text'] {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 30px;
+  text-align: right;
+  border-radius: 10px;
+  font-family: sans-serif;
+  font-size: 27px;
+}
+
+.container .appsContainer .inputKeyboard {
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container .appsContainer .inputKeyboard span.operator, .container .appsContainer .inputKeyboard span.number, .container .appsContainer .inputKeyboard span.empty {
+  height: 50px;
+  width: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: sans-serif;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.container .appsContainer .inputKeyboard span.number, .container .appsContainer .inputKeyboard span.empty {
+  background-color: #eaedef;
+}
+
+.container .appsContainer .inputKeyboard span:nth-child(4) {
+  background-color: #20b2aa;
+}
+
+.container .appsContainer .inputKeyboard span:nth-child(8) {
+  background-color: #ffa500;
+}
+
+.container .appsContainer .inputKeyboard span:nth-child(12) {
+  background-color: #f08080;
+}
+
+.container .appsContainer .inputKeyboard span:nth-child(16) {
+  background-color: #7d93e0;
+}
+
+.container .appsContainer .inputKeyboard span:nth-child(20) {
+  background-color: #9477af;
+}
+/*# sourceMappingURL=style.css.map */
